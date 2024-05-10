@@ -16,7 +16,7 @@ const Card = (props) => {
 
   const price = props.data?.card?.info?.price / 100;
   const Veg = props.data?.card?.info?.itemAttribute?.vegClassifier;
-  const ratting = '****';
+  const ratting = '*****';
   if (props.data.card.info.imageId === undefined) {
     if (Veg === 'VEG')
       imgID =
